@@ -8,8 +8,8 @@ public class AddTwo {
 	public static void main(String[] args) {
 		//3 and  5 are user input and they can be other values and the program will still work
 		int a = Integer.parseInt(args[0]);
-		int b =  Integer.parseInt(args[0]); 
-		System.out.println (a+ " + "+b +"  = . "+(a+b));
+		int b =  Integer.parseInt(args[1]); 
+		System.out.println (a+ " + "+b +"  =  "+(a+b));
 
 
 	}

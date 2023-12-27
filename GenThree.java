@@ -18,17 +18,8 @@ public class GenThree {
 		System.out.println(randomValue2);
 		System.out.println(randomValue3);
 
-		if (randomValue1 < randomValue2 && randomValue1 < randomValue3 ){
-			System.out.println("the minimal number was " + randomValue1 );
-
-
-		}
-		else if (randomValue2<randomValue1 && randomValue2<randomValue3){
-			System.out.println("the minimal number was "+ randomValue2);
-		}
-		else{
-			System.out.println("the minimal  number was " + randomValue3);
-		}
+		System.out.println("The minimal generated value was " + Math.min(randomValue1, Math.min(randomValue2, randomValue3)));
+		
 
 
 	
